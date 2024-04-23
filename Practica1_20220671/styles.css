@@ -1,0 +1,29 @@
+body {
+    background-color: #54a7c038;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1, h3, h4, #p12 {
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(46, 46, 46, 0.144);
+    border: 1px solid #00000071;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 1rem;
+}
