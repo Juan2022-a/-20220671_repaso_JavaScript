@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Pokémon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container mt-5"><br><br>
+        <h1 class="text-center">Información de Pokémon</h1> <br>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+                <form id="searchForm" class="form-inline justify-content-center">
+                    <div class="form-group mb-2">
+                        <input type="text" class="form-control" id="pokemonInput"
+                            placeholder="Ingresa el nombre o ID del Pokémon">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2 ml-2">Buscar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5" id="pokemonInfo">
+            <!-- La información del Pokémon se mostrará aquí -->
+        </div>
+    </div>
+
+    <script src="PokeAPI.js"></script>
+
+</body>
+
+</html>
